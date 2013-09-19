@@ -10,6 +10,7 @@ options[selectobj.selectedIndex].text;
 
 }
 
-function funksjon()
+function myFunction()
 {
 alert("Beklager så mye, denne siden er under konstruksjon!");				// Gjør at funksjonen sender et varsel.
+}
