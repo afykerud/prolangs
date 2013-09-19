@@ -1,1 +1,49 @@
-x
+body {
+   
+	padding-left: 14em;					/*Angir plasseringen til skriften i body*/
+	color: black;						/*Angir skriftfarge*/
+    background-color: #3399FF; 			/*Angir bakgrunnsfarge*/
+
+	}
+	ul.meny {
+    list-style-type: none;			/*Fjerner dotter fra  meny*/
+    padding: 0;							
+    margin: 0;								
+	position: absolute;
+    top: 6em;							/*Gjør at menyen havner til venstre på skjermen */	
+    left: 1.5em;						
+    width: 9em; 
+	}
+	
+	ul.meny li {
+    background: silver;				/*Setter bakgrunnsfarge til menyen */
+    margin: 0.5em 0;						
+    padding: 0.5em;
+    border-right: 1.5em solid #red
+  a:link {
+    color: #FFFF00; 		/*Gir fargen til linkene*/
+	}		
+		
+  a: hoover
+  { color: blue;
+  }
+  a:visited {
+    color: #FF0000;   		/*Gir farge til de linkene man har besøkt*/
+	}						
+
+
+	address {
+	color: black;
+    margin-top: 1em;
+    padding-top: 1em;					/*Lager en prikkete linje over teksen i <address>*/
+    border-top: thin dotted; }
+
+
+
+
+  	#proglangs {
+	position: absolute;							/*Angir hvor søkefeltet havner hen på skjermen*/
+    top: 6em;
+    right: 31em;
+	}
+
